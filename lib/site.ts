@@ -1,0 +1,40 @@
+export const site = {
+  name: "Long Island Exotic Cars",
+  short: "LIEC",
+  tagline: "Drive Your Dream",
+  description:
+    "Long Island's premier exotic, luxury, and classic car rental service. Lamborghini, Ferrari, Rolls-Royce, Bentley, McLaren and more — delivered across Nassau, Suffolk, NYC, and the Hamptons.",
+  url: "https://longislandexoticcars.com",
+  phone: "516-376-7930",
+  phoneHref: "tel:+15163767930",
+  email: "info@longislandexoticcars.com",
+  emailHref: "mailto:info@longislandexoticcars.com",
+  address: {
+    street: "1025 Old Country Road, Suite 223",
+    city: "Westbury",
+    region: "NY",
+    postal: "11590",
+    country: "US",
+  },
+  hours: [
+    { day: "Monday – Friday", time: "8:00 AM – 9:00 PM" },
+    { day: "Saturday", time: "8:00 AM – 8:00 PM" },
+    { day: "Sunday", time: "10:00 AM – 6:00 PM" },
+  ],
+  serviceAreas: [
+    "Nassau County",
+    "Suffolk County",
+    "New York City",
+    "The Hamptons",
+    "Westchester",
+    "Brooklyn",
+    "Queens",
+    "Manhattan",
+  ],
+  nav: [
+    { label: "Fleet", href: "/fleet" },
+    { label: "Services", href: "/services" },
+    { label: "About", href: "/about" },
+    { label: "Contact", href: "/contact" },
+  ],
+};
